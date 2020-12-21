@@ -1,9 +1,9 @@
 import {applyMiddleware, combineReducers, createStore} from "redux";
-import profileReducer from "./Profile-reducer";
 import thunkMiddleware from "redux-thunk"
+import addressReducer from "./Address-reducer";
 
 let reducers = combineReducers({
-    ProfilePage: profileReducer,
+    AddressPage: addressReducer,
 })
 
 let store = createStore(reducers, applyMiddleware(thunkMiddleware))

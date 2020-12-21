@@ -1,34 +1,30 @@
 import React from 'react'
-import Profile from "./Profile";
-import {getStatus, getUserProfile, updateStatus} from "../../Redux/profile-reducer";
-import connect from 'react-redux/lib/connect/connect';
 import {Redirect, withRouter} from "react-router";
-import {WithAuthRedirect} from "../../hoc/WithAuthRedirect";
 import {compose} from "redux";
 import Address from "./Address";
+import connect from 'react-redux/lib/connect/connect';
+import {getAddress} from "../../Redux/Address-reducer";
 
 
 class AddressContainer extends React.Component {
 
     componentDidMount() {
-
-        this.props.getUserProfile(userId)
-        this.props.getStatus(userId)
-
+        this.props.getAddress()
     }
 
     render() {
         return <Address
+            address={this.props.address}
         />
     }
 }
 
 
-let mapStateToProps = (state) => ({
-    profile: state.ProfilePage.address
-})
+let mapStateToProps = (state) => {
+    return {
+        address: state.AddressPage.address
+    }
+}
 
-
-export default compose(connect(mapStateToProps, {getStatus, getUserProfile, updateStatus}),
-    withRouter)
+export default compose(connect(mapStateToProps, {getAddress}))
 (AddressContainer)
