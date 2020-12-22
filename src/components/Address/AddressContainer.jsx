@@ -9,7 +9,7 @@ import {getAddress} from "../../Redux/Address-reducer";
 class AddressContainer extends React.Component {
 
     componentDidMount() {
-        this.props.getAddress()
+        this.props.getAddress(this.props.remoteIP)
     }
 
     render() {
@@ -22,7 +22,8 @@ class AddressContainer extends React.Component {
 
 let mapStateToProps = (state) => {
     return {
-        address: state.AddressPage.address
+        address: state.AddressPage.ip,
+        remoteIP: state.AddressPage.remoteIP
     }
 }
 

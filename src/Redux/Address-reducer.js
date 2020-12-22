@@ -6,6 +6,7 @@ const SET_ADDRESS = 'SET_ADDRESS';
 
 
 let initialState = {
+    remoteIP: '87.250.250.242',
     ip:null,
     location: null,
     as: null,
@@ -33,9 +34,9 @@ export const setAddress = (ip, location, as, isp, proxy) =>
 
 
 
-export const getAddress = () => { /*ThunkCreator*/
+export const getAddress = (remoteIP) => { /*ThunkCreator*/
     return (dispatch) => {
-        addressAPI.getAddress()
+        addressAPI.getAddress(remoteIP)
             .then(data => {
             let {ip, location, as, isp, proxy} = data.data
             dispatch(setAddress(ip, location, as, isp, proxy))

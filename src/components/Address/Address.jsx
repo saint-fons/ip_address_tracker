@@ -7,7 +7,7 @@ const Address = (props) => {
 
 
     return <div>
-            <div>haha{props.address}</div>
+            <div>haha {props.address}</div>
     </div>
 }
 
