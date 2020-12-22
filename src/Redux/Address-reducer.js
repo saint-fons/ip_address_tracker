@@ -6,7 +6,11 @@ const SET_ADDRESS = 'SET_ADDRESS';
 
 
 let initialState = {
-    address: null
+    ip:null,
+    location: null,
+    as: null,
+    isp: null,
+    proxy: null
 }
 
 
@@ -15,7 +19,8 @@ const addressReducer = (state = initialState, action) => {
     switch (action.type) {
 
         case SET_ADDRESS:
-            return {...state, address: action.address}
+            return {...state,
+                ...action.data}
 
         default:
             return state
@@ -23,15 +28,17 @@ const addressReducer = (state = initialState, action) => {
 }
 
 
-export const setAddress = (address) =>
-    ({type: SET_ADDRESS, address})
+export const setAddress = (ip, location, as, isp, proxy) =>
+    ({type: SET_ADDRESS, data: {ip, location, as, isp, proxy}})
 
 
 
 export const getAddress = () => { /*ThunkCreator*/
     return (dispatch) => {
-        addressAPI.getAddress().then(data => {
-            dispatch(setAddress(data.address))
+        addressAPI.getAddress()
+            .then(data => {
+            let {ip, location, as, isp, proxy} = data.data
+            dispatch(setAddress(ip, location, as, isp, proxy))
         })
     }
 }
