@@ -3,7 +3,7 @@ import {Redirect, withRouter} from "react-router";
 import {compose} from "redux";
 import Address from "./Address";
 import connect from 'react-redux/lib/connect/connect';
-import {getAddress} from "../../Redux/Address-reducer";
+import {getAddress, updateAddress} from "../../Redux/Address-reducer";
 
 
 class AddressContainer extends React.Component {
@@ -15,6 +15,8 @@ class AddressContainer extends React.Component {
     render() {
         return <Address
             address={this.props.address}
+            remoteIP={this.props.remoteIP}
+            updateAddress={this.props.updateAddress}
         />
     }
 }
@@ -27,5 +29,5 @@ let mapStateToProps = (state) => {
     }
 }
 
-export default compose(connect(mapStateToProps, {getAddress}))
+export default compose(connect(mapStateToProps, {getAddress, updateAddress}))
 (AddressContainer)
