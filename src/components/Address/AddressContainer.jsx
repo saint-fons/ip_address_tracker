@@ -17,6 +17,8 @@ class AddressContainer extends React.Component {
             address={this.props.address}
             remoteIP={this.props.remoteIP}
             updateAddress={this.props.updateAddress}
+            getAddress={this.props.getAddress}
+            isp={this.props.isp}
         />
     }
 }
@@ -25,7 +27,8 @@ class AddressContainer extends React.Component {
 let mapStateToProps = (state) => {
     return {
         address: state.AddressPage.ip,
-        remoteIP: state.AddressPage.remoteIP
+        remoteIP: state.AddressPage.remoteIP,
+        isp: state.AddressPage.isp
     }
 }
 

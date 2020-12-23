@@ -1,12 +1,14 @@
 import {addressAPI} from "../api/api";
 
 
-const SET_ADDRESS = 'SET_ADDRESS';
+const SET_ADDRESS = 'SET-ADDRESS';
+const ADD_ADDRESS = 'ADD-ADDRESS';
+
 const UPDATE_NEW_ADDRESS = 'UPDATE-NEW-ADDRESS'
 
 
 let initialState = {
-    remoteIP: '87.250.250.242',
+    remoteIP: '',
     ip: null,
     location: null,
     as: null,
@@ -30,7 +32,11 @@ const addressReducer = (state = initialState, action) => {
             stateCopy.remoteIP = action.newAddress
             return stateCopy
         }
-
+        /*case ADD_ADDRESS: {
+            let newAddress = state.remoteIP
+            stateCopy = {state}
+            stateCopy =
+        }*/
 
 
         default:
@@ -45,6 +51,9 @@ export const setAddress = (ip, location, as, isp, proxy) =>
 export const updateAddressAC = (text) =>
     ({type: UPDATE_NEW_ADDRESS, newAddress: text})
 
+export const addAddressAC = () =>
+    ({type: ADD_ADDRESS})
+
 export const getAddress = (remoteIP) => { /*ThunkCreator*/
     return (dispatch) => {
         addressAPI.getAddress(remoteIP)
@@ -58,6 +67,12 @@ export const getAddress = (remoteIP) => { /*ThunkCreator*/
 export const updateAddress = (text) => {
     return (dispatch) => {
         dispatch(updateAddressAC(text))
+    }
+}
+
+export const addAddress = () => {
+    return (dispatch) => {
+        dispatch(addAddressAC())
     }
 }
 

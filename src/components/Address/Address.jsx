@@ -12,16 +12,28 @@ const Address = (props) => {
         props.updateAddress(text)
     }
 
+    let addAddress = () => {
+        props.getAddress(props.remoteIP)
+    }
+
+
 
     return <div>
-            <div>Requested address: {props.address}</div>
+            <div>Current IP address: {props.address}</div>
             <div>
+                Requested address:
                 <textarea
                     onChange={ onAddressChange }
                     value={props.remoteIP}
                     ref={newAddressElement}
                 />
             </div>
+        <div>
+            <button onClick={ addAddress }>Enter</button>
+        </div>
+        <div>
+            isp: {props.isp}
+        </div>
     </div>
 }
 
