@@ -9,11 +9,14 @@ const UPDATE_NEW_ADDRESS = 'UPDATE-NEW-ADDRESS'
 
 let initialState = {
     remoteIP: '',
-    ip: null,
-    location: null,
-    as: null,
-    isp: null,
-    proxy: null
+    ip: "",
+    location: {
+        country: "",
+        region: ""
+    },
+    as: "",
+    isp: "",
+    proxy: ""
 }
 
 

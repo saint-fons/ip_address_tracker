@@ -1,5 +1,4 @@
 import React from 'react'
-import {Redirect, withRouter} from "react-router";
 import {compose} from "redux";
 import Address from "./Address";
 import connect from 'react-redux/lib/connect/connect';
@@ -19,6 +18,8 @@ class AddressContainer extends React.Component {
             updateAddress={this.props.updateAddress}
             getAddress={this.props.getAddress}
             isp={this.props.isp}
+            country={this.props.country}
+            city={this.props.city}
         />
     }
 }
@@ -28,7 +29,9 @@ let mapStateToProps = (state) => {
     return {
         address: state.AddressPage.ip,
         remoteIP: state.AddressPage.remoteIP,
-        isp: state.AddressPage.isp
+        isp: state.AddressPage.isp,
+        country: state.AddressPage.location.country,
+        city: state.AddressPage.location.region
     }
 }
 

@@ -1,8 +1,5 @@
 import React from 'react'
 
-
-
-
 const Address = (props) => {
 
     let newAddressElement = React.createRef()
@@ -16,13 +13,12 @@ const Address = (props) => {
         props.getAddress(props.remoteIP)
     }
 
-
-
     return <div>
             <div>Current IP address: {props.address}</div>
             <div>
-                Requested address:
+
                 <textarea
+                    placeholder={"Please enter requested address"}
                     onChange={ onAddressChange }
                     value={props.remoteIP}
                     ref={newAddressElement}
@@ -32,7 +28,13 @@ const Address = (props) => {
             <button onClick={ addAddress }>Enter</button>
         </div>
         <div>
-            isp: {props.isp}
+            Internet provider: {props.address}
+        </div>
+        <div>
+            Country: {props.country}
+        </div>
+        <div>
+            city: {props.city}
         </div>
     </div>
 }
