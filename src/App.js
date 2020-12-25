@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import bg from './pattern-bg.png';
 import './App.css';
 import AddressContainer from "./components/Address/AddressContainer";
 import Map from "./components/Map/Map";
@@ -6,14 +6,12 @@ import Map from "./components/Map/Map";
 function App() {
   return (
     <div className="App">
-        <div>
-        </div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+          <div>
+              <img src={bg} alt={"bg"} />
+          </div>
             <AddressContainer />
             <Map />
-        </p>
       </header>
 
     </div>
