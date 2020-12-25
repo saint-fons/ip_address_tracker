@@ -12,7 +12,9 @@ let initialState = {
     ip: "",
     location: {
         country: "",
-        region: ""
+        region: "",
+        lat: "",
+        lng: ""
     },
     as: {
         name: ""

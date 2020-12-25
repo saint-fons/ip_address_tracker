@@ -12,16 +12,18 @@ class AddressContainer extends React.Component {
     }
 
     render() {
-        return <Address
-            address={this.props.address}
-            remoteIP={this.props.remoteIP}
-            updateAddress={this.props.updateAddress}
-            getAddress={this.props.getAddress}
-            isp={this.props.isp}
-            country={this.props.country}
-            city={this.props.city}
-            provider={this.props.provider}
-        />
+        return <div>
+            <Address
+                address={this.props.address}
+                remoteIP={this.props.remoteIP}
+                updateAddress={this.props.updateAddress}
+                getAddress={this.props.getAddress}
+                isp={this.props.isp}
+                country={this.props.country}
+                city={this.props.city}
+                provider={this.props.provider}
+            />
+        </div>
     }
 }
 
@@ -33,7 +35,9 @@ let mapStateToProps = (state) => {
         isp: state.AddressPage.isp,
         provider: state.AddressPage.as.name,
         country: state.AddressPage.location.country,
-        city: state.AddressPage.location.region
+        city: state.AddressPage.location.region,
+        lat: state.AddressPage.location.lat,
+        lng: state.AddressPage.location.lng
     }
 }
 
