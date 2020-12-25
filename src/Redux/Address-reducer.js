@@ -14,7 +14,9 @@ let initialState = {
         country: "",
         region: ""
     },
-    as: "",
+    as: {
+        name: ""
+    },
     isp: "",
     proxy: ""
 }

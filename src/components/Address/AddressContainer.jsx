@@ -20,6 +20,7 @@ class AddressContainer extends React.Component {
             isp={this.props.isp}
             country={this.props.country}
             city={this.props.city}
+            provider={this.props.provider}
         />
     }
 }
@@ -30,6 +31,7 @@ let mapStateToProps = (state) => {
         address: state.AddressPage.ip,
         remoteIP: state.AddressPage.remoteIP,
         isp: state.AddressPage.isp,
+        provider: state.AddressPage.as.name,
         country: state.AddressPage.location.country,
         city: state.AddressPage.location.region
     }

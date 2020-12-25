@@ -28,13 +28,13 @@ const Address = (props) => {
             <button onClick={ addAddress }>Enter</button>
         </div>
         <div>
-            Internet provider: {props.address}
+            Internet provider: {props.provider}
         </div>
         <div>
             Country: {props.country}
         </div>
         <div>
-            city: {props.city}
+            City: {props.city}
         </div>
     </div>
 }
