@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04bb72bb-7ead-4c0b-a5e2-90c223da736d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProjectId" id="1lyWlrBxfahYPh4odjVlxuSJHoQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04bb72bb-7ead-4c0b-a5e2-90c223da736d" name="Default Changelist" comment="" />
+      <created>1608569964307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608569964307</updated>
+      <workItem from="1608569966136" duration="2336000" />
+      <workItem from="1608572341066" duration="3650000" />
+      <workItem from="1608619639610" duration="16441000" />
+      <workItem from="1608694706463" duration="215000" />
+      <workItem from="1608694933363" duration="6287000" />
+      <workItem from="1608792774981" duration="8703000" />
+      <workItem from="1608821933725" duration="609000" />
+      <workItem from="1608823860846" duration="1048000" />
+      <workItem from="1608832032915" duration="1082000" />
+      <workItem from="1608882001999" duration="3078000" />
+      <workItem from="1608889259848" duration="240000" />
+      <workItem from="1608891744886" duration="3458000" />
+      <workItem from="1608896721265" duration="521000" />
+      <workItem from="1608899976292" duration="2754000" />
+      <workItem from="1608903420839" duration="2317000" />
+      <workItem from="1608923339137" duration="2933000" />
+      <workItem from="1609160491314" duration="2449000" />
+      <workItem from="1609220678516" duration="128000" />
+      <workItem from="1609221241160" duration="1525000" />
+      <workItem from="1609910138867" duration="6889000" />
+    </task>
+    <task id="LOCAL-00001" summary="get ip address">
+      <created>1608574559890</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608574559890</updated>
+    </task>
+    <task id="LOCAL-00002" summary="data from server to store">
+      <created>1608635191435</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608635191435</updated>
+    </task>
+    <task id="LOCAL-00003" summary="data from store to server and back">
+      <created>1608640094257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608640094257</updated>
+    </task>
+    <task id="LOCAL-00004" summary="from UI to BLL">
+      <created>1608701388382</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608701388382</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&quot;Enter IP address&quot; button added">
+      <created>1608703495644</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608703495644</updated>
+    </task>
+    <task id="LOCAL-00006" summary="location. added">
+      <created>1608815468856</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608815468856</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixed learn react logo">
+      <created>1608815618172</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608815618172</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ip address tested">
+      <created>1608818246812</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608818246812</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixed">
+      <created>1608882067574</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608882067574</updated>
+    </task>
+    <task id="LOCAL-00010" summary="internet provider fixed">
+      <created>1608887038211</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608887038211</updated>
+    </task>
+    <task id="LOCAL-00011" summary="before map added">
+      <created>1608888775571</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608888775571</updated>
+    </task>
+    <task id="LOCAL-00012" summary="map and marker">
+      <created>1608896762618</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608896762618</updated>
+    </task>
+    <task id="LOCAL-00013" summary="design fixed">
+      <created>1608904633728</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608904633728</updated>
+    </task>
+    <task id="LOCAL-00014" summary="axios fidex">
+      <created>1608924239160</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608924239160</updated>
+    </task>
+    <task id="LOCAL-00015" summary="axios fidex">
+      <created>1608924455953</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608924455953</updated>
+    </task>
+    <task id="LOCAL-00016" summary="axios">
+      <created>1608924613662</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608924613662</updated>
+    </task>
+    <task id="LOCAL-00017" summary="meta data added">
+      <created>1609913073458</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609913073458</updated>
+    </task>
+    <task id="LOCAL-00018" summary="meta data added">
+      <created>1609913617672</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1609913617672</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="get ip address" />
+    <MESSAGE value="data from server to store" />
+    <MESSAGE value="data from store to server and back" />
+    <MESSAGE value="from UI to BLL" />
+    <MESSAGE value="&quot;Enter IP address&quot; button added" />
+    <MESSAGE value="location. added" />
+    <MESSAGE value="fixed learn react logo" />
+    <MESSAGE value="ip address tested" />
+    <MESSAGE value="fixed" />
+    <MESSAGE value="internet provider fixed" />
+    <MESSAGE value="before map added" />
+    <MESSAGE value="map and marker" />
+    <MESSAGE value="design fixed" />
+    <MESSAGE value="axios fidex" />
+    <MESSAGE value="axios" />
+    <MESSAGE value="meta data added" />
+    <option name="LAST_COMMIT_MESSAGE" value="meta data added" />
+  </component>
+</project>
