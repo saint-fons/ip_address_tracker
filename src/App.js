@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
           <div>
-              <img src={bg} alt={"bg"} />
+              {/*<img src={bg} alt={"bg"} />*/}
           </div>
             <AddressContainer />
             <Map />

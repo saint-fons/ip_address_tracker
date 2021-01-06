@@ -39,13 +39,6 @@ const addressReducer = (state = initialState, action) => {
             stateCopy.remoteIP = action.newAddress
             return stateCopy
         }
-        /*case ADD_ADDRESS: {
-            let newAddress = state.remoteIP
-            stateCopy = {state}
-            stateCopy =
-        }*/
-
-
         default:
             return state
     }

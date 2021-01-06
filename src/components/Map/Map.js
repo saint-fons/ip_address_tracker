@@ -17,7 +17,6 @@ class Map extends React.Component {
                 />
                 <Marker position={[this.props.lat, this.props.lng]}>
                     <Popup>
-                        Popup for any custom information.
                     </Popup>
                 </Marker>
             </MapContainer>
