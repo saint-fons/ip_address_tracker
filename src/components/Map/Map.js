@@ -4,11 +4,16 @@ import {compose} from "redux";
 import connect from "react-redux/lib/connect/connect";
 
 class Map extends React.Component {
+    componentDidMount() {
+        let latLng = [this.props.lat, this.props.lng]
+    }
+
+
     render() {
         return (
             <MapContainer
                 className="markercluster-map"
-                center={[50, 10]}
+                center={[this.props.lat, this.props.lng]}
                 zoom={2}
                 maxZoom={10}
             >

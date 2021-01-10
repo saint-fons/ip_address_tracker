@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04bb72bb-7ead-4c0b-a5e2-90c223da736d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/Address-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Address-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/Redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Map/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Map/Map.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +41,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="ts.external.directory.path" value="F:\Applications\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -83,7 +88,8 @@
       <workItem from="1609160491314" duration="2449000" />
       <workItem from="1609220678516" duration="128000" />
       <workItem from="1609221241160" duration="1525000" />
-      <workItem from="1609910138867" duration="6889000" />
+      <workItem from="1609910138867" duration="8414000" />
+      <workItem from="1610177273444" duration="6164000" />
     </task>
     <task id="LOCAL-00001" summary="get ip address">
       <created>1608574559890</created>
@@ -211,7 +217,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609913617672</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="map app added">
+      <created>1609923879407</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1609923879407</updated>
+    </task>
+    <task id="LOCAL-00020" summary="map app added">
+      <created>1609923968980</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609923968980</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +266,7 @@
     <MESSAGE value="axios fidex" />
     <MESSAGE value="axios" />
     <MESSAGE value="meta data added" />
-    <option name="LAST_COMMIT_MESSAGE" value="meta data added" />
+    <MESSAGE value="map app added" />
+    <option name="LAST_COMMIT_MESSAGE" value="map app added" />
   </component>
 </project>
