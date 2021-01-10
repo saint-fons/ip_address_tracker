@@ -11,6 +11,7 @@ class Map extends React.Component {
 
     render() {
         return (
+            <div className={"mapFooter"}>
             <MapContainer
                 className="markercluster-map"
                 center={[this.props.lat, this.props.lng]}
@@ -25,6 +26,7 @@ class Map extends React.Component {
                     </Popup>
                 </Marker>
             </MapContainer>
+            </div>
         );
     }
 }

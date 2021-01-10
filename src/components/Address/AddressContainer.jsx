@@ -22,6 +22,7 @@ class AddressContainer extends React.Component {
                 country={this.props.country}
                 city={this.props.city}
                 provider={this.props.provider}
+                timezone={this.props.timezone}
             />
         </div>
     }
@@ -37,7 +38,8 @@ let mapStateToProps = (state) => {
         country: state.AddressPage.location.country,
         city: state.AddressPage.location.region,
         lat: state.AddressPage.location.lat,
-        lng: state.AddressPage.location.lng
+        lng: state.AddressPage.location.lng,
+        timezone: state.AddressPage.location.timezone
     }
 }
 

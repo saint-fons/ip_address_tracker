@@ -1,4 +1,5 @@
 import React from 'react'
+import "./../../App.css"
 
 const Address = (props) => {
 
@@ -13,29 +14,62 @@ const Address = (props) => {
         props.getAddress(props.remoteIP)
     }
 
-    return <div>
-            <div>Current IP address: {props.address}</div>
-            <div>
+    return <div className={"headerAddressInfo"}>
+        <div className={"currentAddress"}>Current IP address: {props.address}</div>
+
+        <div className={"enterAddress"}>
 
                 <textarea
-                    placeholder={"Please enter requested address"}
-                    onChange={ onAddressChange }
+                    className={"textAreaAddress"}
+                    placeholder={"Please enter address"}
+                    onChange={onAddressChange}
                     value={props.remoteIP}
                     ref={newAddressElement}
                 />
+            <div>
+                <button className={"buttonAreaAddress"} onClick={addAddress}>Enter</button>
             </div>
-        <div>
-            <button onClick={ addAddress }>Enter</button>
         </div>
-        <div>
-            Internet provider: {props.provider}
+
+        <div className={"metaAddressData"}>
+            <div className={"metaAddressDataContainer"}>
+                <div className={"metaAddressInfo"}>
+                    IP ADDRESS
+                </div>
+                <div className={"metaAddressText"}>
+                    {props.address}
+                </div>
+            </div>
+
+            <div className={"metaAddressDataContainer"}>
+                <div className={"metaAddressInfo"}>
+                    location
+                </div>
+                <div className={"metaAddressText"}>
+                    {props.city}
+                </div>
+            </div>
+
+            <div className={"metaAddressDataContainer"}>
+                <div className={"metaAddressInfo"}>
+                    TIMEZONE
+                </div>
+                <div className={"metaAddressText"}>
+                    {props.timezone}
+                </div>
+            </div>
+
+            <div className={"metaAddressDataContainer"}>
+                <div className={"metaAddressInfo"}>
+                    Internet provider
+                </div>
+                <div className={"metaAddressText"}>
+                    {props.provider}
+                </div>
+            </div>
+
         </div>
-        <div>
-            Country: {props.country}
-        </div>
-        <div>
-            City: {props.city}
-        </div>
+
     </div>
 }
 
