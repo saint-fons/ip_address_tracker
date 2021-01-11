@@ -21,7 +21,7 @@ const Address = (props) => {
 
                 <textarea
                     className={"textAreaAddress"}
-                    placeholder={"Please enter address"}
+                    placeholder={"Enter address"}
                     onChange={onAddressChange}
                     value={props.remoteIP}
                     ref={newAddressElement}

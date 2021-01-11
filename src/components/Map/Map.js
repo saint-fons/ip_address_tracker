@@ -4,10 +4,6 @@ import {compose} from "redux";
 import connect from "react-redux/lib/connect/connect";
 
 class Map extends React.Component {
-    componentDidMount() {
-        let latLng = [this.props.lat, this.props.lng]
-    }
-
 
     render() {
         return (
