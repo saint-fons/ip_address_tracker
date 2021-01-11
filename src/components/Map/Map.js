@@ -11,8 +11,8 @@ class Map extends React.Component {
             <MapContainer
                 className="markercluster-map"
                 center={[this.props.lat, this.props.lng]}
-                zoom={2}
-                maxZoom={10}
+                zoom={1}
+                maxZoom={11}
             >
                 <TileLayer
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

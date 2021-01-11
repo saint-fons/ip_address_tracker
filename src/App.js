@@ -1,7 +1,7 @@
 import bg from './pattern-bg.png';
 import AddressContainer from "./components/Address/AddressContainer";
 import Map from "./components/Map/Map";
-import s from "./styles/style.modul.css"
+import "./../src/index.css"
 import "./App.css"
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
           <div>
-              {<img src={bg} alt={"bg"} className={s.bg} />}
+              {<img src={bg} alt={"bg"} className={"bg_img"} />}
           </div>
             <AddressContainer />
             <Map />

@@ -12,12 +12,35 @@
   color: white;
 }
 
+@media (min-width: 1440px) {
 
-/*Leaflet_MAP*/
-.leaflet-container {
-  height: 700px;
-  width: 1440px;
+
+  /*Leaflet_MAP*/
+  .leaflet-container {
+    height: 700px;
+    width: 1440px;
+  }
+
+
+  /*Leaflet_MAP*/
+
+
+}
+
+@media (max-width: 1440px) {
+
+
+  /*Leaflet_MAP*/
+  .leaflet-container {
+    height: 500px;
+    width: 375px;
+  }
+
+
+  /*Leaflet_MAP*/
+
+
 }
 
 
-/*Leaflet_MAP*/
+

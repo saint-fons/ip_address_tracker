@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+
+
+
+@media (min-width: 1440px) {
+
+
+
 body {
     font-family: 'Rubik', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -16,6 +23,11 @@ code {
     monospace;
 }
 
+    .bg_img {
+        width: 1440px;
+        max-height: 250px;
+    }
+
 
 .currentAddress {
     position: relative;
@@ -23,12 +35,6 @@ code {
     font-size: 20px;
     font-weight: 500;
 }
-
-
-
-
-
-
 
 /*ADDRESS INFO*/
 
@@ -90,13 +96,14 @@ code {
 /*BUTTON*/
 
 .buttonAreaAddress {
+    font-size: 20px;
+
     position: absolute;
     background-color: #282c34; /* Green */
     border: none;
     color: white;
     width: 70px;
     height: 37px;
-    font-size: 16px;
     cursor: pointer;
     border-radius: 0 25px 25px 0;
     margin: auto;
@@ -116,23 +123,298 @@ code {
 
 
 .textAreaAddress {
+    text-align: center;
+    text-decoration: none;
+    color: #282c34;
+    font-weight: 500;
+
     width: 150px;
     height: 37px;
     margin: 0;
-    text-align: center;
-    text-decoration: none;
     font-family: 'Rubik', sans-serif;
     padding-top: 10px;
 }
-
 
 
 /*BUTTON*/
 
 
 
+}@media (min-width: 1440px) {
 
 
+
+body {
+    font-family: 'Rubik', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 1440px;
+    max-height: 400px;
+    margin: auto;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.currentAddress {
+    position: relative;
+    top: -240px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*ADDRESS INFO*/
+
+
+.metaAddressData {
+    width: 800px;
+    height: 150px;
+
+    background: white;
+
+    display: flex;
+    position: relative;
+    top: -200px;
+    z-index: 3;
+    border-radius: 25px;
+}
+
+.metaAddressDataContainer {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background: white;
+}
+
+.metaAddressInfo {
+    font-size: 15px;
+    width: 150px;
+    height: 15px;
+    margin: 50px auto auto auto;
+    color: saddlebrown;
+
+    font-weight: 400;
+}
+
+
+.metaAddressText {
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    margin: 25px auto auto auto;
+    color: #282c34;
+}
+
+
+/*ADDRESS INFO*/
+
+
+/*MAP*/
+
+.mapFooter {
+    position: absolute;
+    top: 250px;
+    z-index: 0;
+}
+
+/*MAP*/
+
+
+/*BUTTON*/
+
+.buttonAreaAddress {
+    font-size: 20px;
+
+    position: absolute;
+    background-color: #282c34; /* Green */
+    border: none;
+    color: white;
+    width: 70px;
+    height: 37px;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+    margin: auto;
+}
+
+
+.enterAddress {
+    display: flex;
+    width: 250px;
+    height: 75px;
+    position: relative;
+    top: -210px;
+    right: 0;
+    margin: auto;
+}
+
+
+
+.textAreaAddress {
+    text-align: center;
+    text-decoration: none;
+    color: #282c34;
+    font-weight: 500;
+
+    width: 150px;
+    height: 37px;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 10px;
+}
+
+
+/*BUTTON*/
+
+
+
+}
+
+/***************************************************************************************/
+
+@media (max-width: 1440px) {
+
+
+
+    body {
+        font-family: 'Rubik', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        width: 375px;
+        max-height: 400px;
+        margin: auto;
+    }
+
+    code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+    }
+
+
+    .bg_img {
+        width: 375px;
+        height: 250px;
+    }
+
+
+
+
+
+    .currentAddress {
+        position: relative;
+        top: -240px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    /*ADDRESS INFO*/
+
+
+    .metaAddressData {
+        width: 275px;
+        height: 225px;
+
+        background: white;
+
+        display: block;
+        position: relative;
+        top: -230px;
+        z-index: 3;
+        border-radius: 25px;
+    }
+
+    .metaAddressDataContainer {
+        margin: auto;
+        width: 150px;
+        height: 55px;
+        background: white;
+    }
+
+    .metaAddressInfo {
+        font-size: 14px;
+        width: 110px;
+        height: 15px;
+        margin: auto;
+        color: saddlebrown;
+
+        font-weight: 400;
+    }
+
+
+    .metaAddressText {
+        font-size: 17px;
+        width: 170px;
+        height: 20px;
+        margin: 10px auto auto auto;
+        color: #282c34;
+    }
+
+
+    /*ADDRESS INFO*/
+
+
+    /*MAP*/
+
+    .mapFooter {
+        position: absolute;
+        top: 250px;
+        z-index: 0;
+    }
+
+    /*MAP*/
+
+
+    /*BUTTON*/
+
+    .buttonAreaAddress {
+        font-size: 20px;
+
+        position: absolute;
+        background-color: #282c34; /* Green */
+        border: none;
+        color: white;
+        width: 70px;
+        height: 27px;
+        cursor: pointer;
+        border-radius: 0 25px 25px 0;
+        margin: auto;
+    }
+
+
+    .enterAddress {
+        display: flex;
+        width: 200px;
+        height: 75px;
+        position: relative;
+        top: -210px;
+        right: 0;
+        margin: auto;
+    }
+
+
+
+    .textAreaAddress {
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none;
+        color: #282c34;
+        font-weight: 500;
+
+        width: 130px;
+        height: 27px;
+        margin: 0;
+        font-family: 'Rubik', sans-serif;
+        padding-top: 5px;
+    }
+
+
+    /*BUTTON*/
+
+
+
+}
 
 
 

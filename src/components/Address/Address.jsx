@@ -27,7 +27,7 @@ const Address = (props) => {
                     ref={newAddressElement}
                 />
             <div>
-                <button className={"buttonAreaAddress"} onClick={addAddress}>Enter</button>
+                <button className={"buttonAreaAddress"} onClick={addAddress}>></button>
             </div>
         </div>
 
