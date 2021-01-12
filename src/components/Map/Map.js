@@ -11,7 +11,7 @@ class Map extends React.Component {
             <MapContainer
                 className="markercluster-map"
                 center={[this.props.lat, this.props.lng]}
-                zoom={1}
+                zoom={2}
                 maxZoom={11}
             >
                 <TileLayer
