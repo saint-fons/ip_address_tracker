@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04bb72bb-7ead-4c0b-a5e2-90c223da736d" name="Default Changelist" comment="" />
+    <list default="true" id="04bb72bb-7ead-4c0b-a5e2-90c223da736d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +90,7 @@
       <workItem from="1610477465447" duration="1483000" />
       <workItem from="1610528871702" duration="2931000" />
       <workItem from="1610606807533" duration="403000" />
-      <workItem from="1610607292091" duration="3063000" />
+      <workItem from="1610607292091" duration="3371000" />
     </task>
     <task id="LOCAL-00001" summary="get ip address">
       <created>1608574559890</created>
@@ -279,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610611195350</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="map fixed">
+      <created>1610611427178</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1610611427178</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +331,7 @@
     <MESSAGE value="fix" />
     <MESSAGE value="text area fixed. gif changed" />
     <MESSAGE value="gif fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="gif fixed" />
+    <MESSAGE value="map fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="map fixed" />
   </component>
 </project>
