@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04bb72bb-7ead-4c0b-a5e2-90c223da736d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IP_ADDRESS_TRACKER.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-    </list>
+    <list default="true" id="04bb72bb-7ead-4c0b-a5e2-90c223da736d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +88,7 @@
       <workItem from="1610477465447" duration="1483000" />
       <workItem from="1610528871702" duration="2931000" />
       <workItem from="1610606807533" duration="403000" />
-      <workItem from="1610607292091" duration="2756000" />
+      <workItem from="1610607292091" duration="3063000" />
     </task>
     <task id="LOCAL-00001" summary="get ip address">
       <created>1608574559890</created>
@@ -270,7 +265,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610480479302</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="text area fixed. gif changed">
+      <created>1610611091227</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1610611091227</updated>
+    </task>
+    <task id="LOCAL-00027" summary="gif fixed">
+      <created>1610611195350</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1610611195350</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +320,8 @@
     <MESSAGE value="css ver 2 style fixed" />
     <MESSAGE value="mobile style added ver 3" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="text area fixed. gif changed" />
+    <MESSAGE value="gif fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="gif fixed" />
   </component>
 </project>
