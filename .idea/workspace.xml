@@ -4,7 +4,7 @@
     <list default="true" id="04bb72bb-7ead-4c0b-a5e2-90c223da736d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Map/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Map/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IP_ADDRESS_TRACKER.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../rest-countries-api-with-color-theme-switcher-master/rest-countries-app" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,7 +90,10 @@
       <workItem from="1609910138867" duration="8414000" />
       <workItem from="1610177273444" duration="6164000" />
       <workItem from="1610263494420" duration="20204000" />
-      <workItem from="1610477465447" duration="891000" />
+      <workItem from="1610477465447" duration="1483000" />
+      <workItem from="1610528871702" duration="2931000" />
+      <workItem from="1610606807533" duration="403000" />
+      <workItem from="1610607292091" duration="2756000" />
     </task>
     <task id="LOCAL-00001" summary="get ip address">
       <created>1608574559890</created>
@@ -260,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610397283491</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="fix">
+      <created>1610480479302</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1610480479302</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +310,7 @@
     <MESSAGE value="css ver 1" />
     <MESSAGE value="css ver 2 style fixed" />
     <MESSAGE value="mobile style added ver 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile style added ver 3" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>

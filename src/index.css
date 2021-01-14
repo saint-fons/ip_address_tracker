@@ -2,12 +2,7 @@
     box-sizing: border-box;
 }
 
-
-
-
 @media (min-width: 1440px) {
-
-
 
 body {
     font-family: 'Rubik', sans-serif;
@@ -133,6 +128,10 @@ code {
     margin: 0;
     font-family: 'Rubik', sans-serif;
     padding-top: 10px;
+
+    outline: none;
+    resize: none;
+    border-radius: 5px 0 0 5px;
 }
 
 
@@ -225,19 +224,7 @@ code {
 
 /*BUTTON*/
 
-.buttonAreaAddress {
-    font-size: 20px;
 
-    position: absolute;
-    background-color: #282c34; /* Green */
-    border: none;
-    color: white;
-    width: 70px;
-    height: 37px;
-    cursor: pointer;
-    border-radius: 0 25px 25px 0;
-    margin: auto;
-}
 
 
 .enterAddress {
@@ -252,18 +239,7 @@ code {
 
 
 
-.textAreaAddress {
-    text-align: center;
-    text-decoration: none;
-    color: #282c34;
-    font-weight: 500;
 
-    width: 150px;
-    height: 37px;
-    margin: 0;
-    font-family: 'Rubik', sans-serif;
-    padding-top: 10px;
-}
 
 
 /*BUTTON*/
@@ -301,6 +277,39 @@ code {
 
 
 
+
+    .textAreaAddress {
+        text-align: center;
+        text-decoration: none;
+        color: #282c34;
+        font-weight: 500;
+
+        width: 150px;
+        height: 37px;
+        margin: 0;
+        font-family: 'Rubik', sans-serif;
+        padding-top: 10px;
+
+        outline: none;
+        resize: none;
+        border-radius: 5px 0 0 5px;
+    }
+
+
+
+    .buttonAreaAddress {
+        font-size: 20px;
+
+        position: absolute;
+        background-color: #282c34; /* Green */
+        border: none;
+        color: white;
+        width: 70px;
+        height: 37px;
+        cursor: pointer;
+        border-radius: 0 25px 25px 0;
+        margin: auto;
+    }
 
     .currentAddress {
         position: relative;
