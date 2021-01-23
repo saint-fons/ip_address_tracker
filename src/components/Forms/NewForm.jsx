@@ -18,7 +18,7 @@ const NewForm = (props) => {
 
     let remoteIP = props.remoteIP
 
-    const ipValue = value => ( value.match(ipFormat) ? updateAddress(value) : 'wrong address' )
+    const ipValue = value => ( value.match(ipFormat) ? updateAddress(value) : 'Invalid address' )
     const composeValidators = (...validators) => value =>
         validators.reduce((error, validator) => error || validator(value), undefined)
     const required = value => (value ? undefined : 'Required')

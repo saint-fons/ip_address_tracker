@@ -47,7 +47,7 @@ export default styled.div`
 
   @media (min-width: 1440px) {
   form {
-    max-width: 570px;
+    max-width: 800px;
     margin: 10px auto;
     padding: 20px;
     border-radius: 3px;
@@ -59,7 +59,6 @@ export default styled.div`
       margin: 5px;
 
       & > label {
-        color: #333;
         width: 270px;
         font-weight: bold;
         font-size: 20px;
@@ -96,7 +95,7 @@ export default styled.div`
       & > span {
         line-height: 32px;
         margin-left: 10px;
-        color: #800;
+        font-size: 20px;
         font-weight: bold;
       }
     }
@@ -171,6 +170,7 @@ export default styled.div`
           & > span {
             line-height: 32px;
             margin-left: 10px;
+            font-size: 20px;
             color: #800;
             font-weight: bold;
           }

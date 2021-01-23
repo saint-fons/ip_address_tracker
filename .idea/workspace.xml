@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04bb72bb-7ead-4c0b-a5e2-90c223da736d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/address-tracker.gif" beforeDir="false" afterPath="$PROJECT_DIR$/address-tracker.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Forms/NewForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Forms/NewForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Forms/Styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Forms/Styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +115,8 @@
       <workItem from="1611252693296" duration="50000" />
       <workItem from="1611299674732" duration="912000" />
       <workItem from="1611314069867" duration="847000" />
-      <workItem from="1611314938690" duration="17865000" />
+      <workItem from="1611314938690" duration="24480000" />
+      <workItem from="1611417784879" duration="663000" />
     </task>
     <task id="LOCAL-00001" summary="get ip address">
       <created>1608574559890</created>
@@ -319,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611389403860</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="app fixed">
+      <created>1611405908270</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1611405908270</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +354,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="data from store to server and back" />
     <MESSAGE value="from UI to BLL" />
     <MESSAGE value="&quot;Enter IP address&quot; button added" />
     <MESSAGE value="location. added" />
@@ -363,6 +378,7 @@
     <MESSAGE value="map fixed" />
     <MESSAGE value="readme fixed" />
     <MESSAGE value="final form added" />
-    <option name="LAST_COMMIT_MESSAGE" value="final form added" />
+    <MESSAGE value="app fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="app fixed" />
   </component>
 </project>

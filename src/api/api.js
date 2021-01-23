@@ -4,7 +4,7 @@ import axios from 'axios';
 export const addressAPI = {
 
     getAddress(remoteIP) {
-        return axios.get(`https://geo.ipify.org/api/v1?apiKey=at_vVCAR5mM9BDdzdl8OP8CDH4B4PxQe&ipAddress=${remoteIP}`)
+        return axios.get(`https://geo.ipify.org/api/v1?apiKey=at_8D2btCBV4IAfe7dRUX87l6G5TvPuE&ipAddress=${remoteIP}`)
             .then(response =>{
                 return response
             })
