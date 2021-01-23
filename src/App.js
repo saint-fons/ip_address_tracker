@@ -3,7 +3,6 @@ import AddressContainer from "./components/Address/AddressContainer";
 import Map from "./components/Map/Map";
 import "./../src/index.css"
 import "./App.css"
-import NewForm from "./components/Forms/NewForm";
 
 function App() {
   return (
