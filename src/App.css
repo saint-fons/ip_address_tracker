@@ -8,11 +8,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 20px;
   color: white;
 }
 
+
+
 @media (min-width: 1440px) {
+
+
+
+  .EnterIpAddressContainer{
+    width: 750px;
+    height: 300px;
+
+    position: relative;
+    top: -250px;
+    right: 0;
+    z-index: 5;
+  }
 
 
   /*Leaflet_MAP*/
@@ -20,6 +34,16 @@
     height: 700px;
     width: 1440px;
   }
+
+
+  .HowToCodeContainer {
+    width: 500px;
+    height: 500px;
+  }
+
+
+
+
 
 
   /*Leaflet_MAP*/
@@ -30,14 +54,44 @@
 @media (max-width: 1440px) {
 
 
-  /*Leaflet_MAP*/
-  .leaflet-container {
-    height: 500px;
-    width: 375px;
+  .EnterIpAddressContainer{
+    width: 350px;
+    height: 200px;
+
+
+    margin: 35px 0 0 0 ;
+    position: relative;
+    top: -250px;
+    right: 0;
+    z-index: 5;
   }
 
 
   /*Leaflet_MAP*/
+  .leaflet-container {
+    height: 700px;
+    width: 375px;
+
+    position: relative;
+    top: -75px;
+    left: 0;
+    z-index: 0;
+  }
+
+
+  .HowToCodeContainer {
+    width: 500px;
+    height: 500px;
+  }
+
+
+
+
+
+
+  /*Leaflet_MAP*/
+
+
 
 
 }

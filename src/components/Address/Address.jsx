@@ -1,23 +1,18 @@
 import React from 'react'
 import "./../../App.css"
+import NewForm from "../Forms/NewForm";
 
 const Address = (props) => {
 
-    let newAddressElement = React.createRef()
-
-    let onAddressChange = () => {
-        let text = newAddressElement.current.value
-        props.updateAddress(text)
-    }
-
-    let addAddress = () => {
-        props.getAddress(props.remoteIP)
-    }
-
     return <div className={"headerAddressInfo"}>
-        <div className={"currentAddress"}>Current IP address: {props.address}</div>
-
-        <div className={"enterAddress"}>
+        <div className={"currentAddress"}>Required IP address: {props.address}</div>
+        <div className={"EnterIpAddressContainer"}>
+            <NewForm getAddress={props.getAddress}
+                     updateAddress={props.updateAddress}
+                     remoteIP={props.remoteIP}
+            />
+        </div>
+        {/*<div className={"enterAddress"}>
 
                 <textarea
                     className={"textAreaAddress"}
@@ -29,7 +24,7 @@ const Address = (props) => {
             <div>
                 <button className={"buttonAreaAddress"} onClick={addAddress}>></button>
             </div>
-        </div>
+        </div>*/}
 
         <div className={"metaAddressData"}>
             <div className={"metaAddressDataContainer"}>
